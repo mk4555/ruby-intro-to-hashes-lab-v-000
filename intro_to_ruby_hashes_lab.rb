@@ -23,7 +23,9 @@ end
 def monopoly_with_third_tier
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
   monopoly = {railroads: {
-    rent_in_dollars:
+    pieces: 4,
+    names: {},
+    rent_in_dollars: {}
     }
   }
 end
